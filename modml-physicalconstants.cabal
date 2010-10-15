@@ -13,7 +13,7 @@ description:          A mathematical modelling DSL built on functional transform
 library
   hs-source-dirs:       .
   exposed-modules:
-    ModML.PhysicalConstants.CommonConstants
+    ModML.PhysicalConstants.Common
   build-depends: base ==4.*,
-                 modml-core == 0.0.*,
-                 modml-units == 0.0.*
+                 ModML-Core == 0.0.*,
+                 ModML-Units == 0.0.*
